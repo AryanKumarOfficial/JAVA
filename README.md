@@ -68,13 +68,13 @@ Hello World
 
 ## JVM
 
-- In our machine we have **_JVM_**(_Java Virtual Machine_).
+- In our machine we have **_JVM_**(*_Java Virtual Machine_*).
 - It makes the **_JAVA_** plateform independent.
 - We can run our **_JAVA_** application only due to the **_JVM_**.
 - But **_JVM_** is plateform dependent.
 - It only understands byte codes.
 - It runs our **_JAVA_** application which is in the byte code.
-- A developer writes the program in `JAVA code` which is converted into `Byte code` by the **_`JAVAC`_**(_JAVA Compiler_).
+- A developer writes the program in `JAVA code` which is converted into `Byte code` by the **_`JAVAC`_**(*_JAVA Compiler_*).
 - **_JVM_** starts the execution from the first file which must have the `main()` method.
 
 ```java
