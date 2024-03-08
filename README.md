@@ -68,13 +68,13 @@ Hello World
 
 ## JVM
 
-- In our machine we have **_JVM_**(*_Java Virtual Machine_*).
+- In our machine we have **_JVM_**(_*Java Virtual Machine*_).
 - It makes the **_JAVA_** plateform independent.
 - We can run our **_JAVA_** application only due to the **_JVM_**.
 - But **_JVM_** is plateform dependent.
 - It only understands byte codes.
 - It runs our **_JAVA_** application which is in the byte code.
-- A developer writes the program in `JAVA code` which is converted into `Byte code` by the **_`JAVAC`_**(*_JAVA Compiler_*).
+- A developer writes the program in `JAVA code` which is converted into `Byte code` by the **_`JAVAC`_**(_*JAVA Compiler*_).
 - **_JVM_** starts the execution from the first file which must have the `main()` method.
 
 ```java
@@ -89,3 +89,33 @@ public void main() // it will take some arguements
 
 - To run the byte code use `java hello`.
 - If we include the file extension it will not run and throw an error.
+
+## JRE
+
+- **_JRE_** stands for **_Java Runtime Environment_**.
+- It is used to run the **_JAVA_** application.
+- It contains the **_JVM_** and other libraries.
+
+## JDK
+
+- **_JDK_** stands for **_Java Development Kit_**.
+- It is used to develop the **_JAVA_** application.
+- It contains the **_JRE_** and other development tools.
+- It contains the **_JVM_** and other libraries.
+- It contains the **_JAVAC_** and other development tools.
+
+## variables
+
+- A variable is a container which holds the value.
+- It is a name given to the memory location.
+- It is used to store the data.
+- It is used to store the data so that we can use it later.
+- Variables in **_JAVA_** are strongly typed.
+- We need to declare the type of the variable before using it.
+
+
+### Example
+
+```java
+int a = 10;
+``` 
