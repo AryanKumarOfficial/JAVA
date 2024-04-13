@@ -113,9 +113,38 @@ public void main() // it will take some arguements
 - Variables in **_JAVA_** are strongly typed.
 - We need to declare the type of the variable before using it.
 
-
 ### Example
 
 ```java
 int a = 10;
-``` 
+```
+
+## Data Types
+
+- **_Data Types_** are used to define the type of the variable.
+- It is used to define the type of the data that the variable can store.
+- **_JAVA_** is a strongly typed language.
+- We need to define the type of the variable before using it.
+- **_JAVA_** has two types of data types:
+  - **_Primitive Data Types_**
+  - **_Non-Primitive Data Types_**
+
+### Primitive Data Types
+
+- **_Primitive Data Types_** are the basic data types.
+- They are used to store the simple values.
+- They are used to store the values directly.
+- They are used to store the values in the memory.
+- **_Primitive Data Types_** are:
+  - **_Integer_** - stores the integer values.
+    - **byte** - 1 byte - range -128 to 127
+    - **short** - 2 bytes - range -32,768 to 32,767
+    - **int** - 4 bytes - range -2,147,483,648 to 2,147,483,647
+    - **long** - 8 bytes - range -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+  - **_Floating Point_** - stores the floating point values.
+    - **float** - 4 bytes - range 3.4e-038 to 3.4e+038
+    - **double** - 8 bytes - range 1.7e-308 to 1.7e+308 – default float in JAVA
+  - **_Character_** - stores the character values.
+    - **char** - 2 bytes - range 0 to 65,536
+  - **_Boolean_** - stores the boolean values.
+    - **bool** - 1 bit - range true or false
