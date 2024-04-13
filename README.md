@@ -300,3 +300,22 @@ float b = a;
 float a = 10.5;
 int b = (int) a;
 ```
+
+## Type Promotion
+
+- **_Type Promotion_** is used to convert the data from lower data type to higher data type.
+
+- **_Type Promotion_** is done automatically by the compiler.
+
+- **_Type Promotion_** is done when:
+  - The data is converted from lower data type to higher data type.
+  - The data is converted from integer to floating point.
+  - The data is converted from floating point to double.
+
+### Example
+
+```java
+byte a = 10;
+byte b = 20;
+float c = a*b;
+```
