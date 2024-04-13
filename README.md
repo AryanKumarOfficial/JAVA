@@ -207,3 +207,96 @@ int a = 10;
   - **_true_** - true
   - **_false_** - false
 
+# Type conversion and Type casting
+
+- **_Type Conversion_** is used to convert the data from one type to another type.
+
+- **_Type Conversion_** is of two types:
+  - **_Implicit Type Conversion_**
+  - **_Explicit Type Conversion_**
+
+## Implicit Type Conversion
+
+- **_Implicit Type Conversion_** is used to convert the data from lower data type to higher data type.
+
+- **_Implicit Type Conversion_** is done automatically by the compiler.
+
+- **_Implicit Type Conversion_** is also known as **_Widening Type Conversion_**.
+
+- **_Implicit Type Conversion_** is done when:
+  - The data is converted from lower data type to higher data type.
+  - The data is converted from integer to floating point.
+  - The data is converted from floating point to double.
+
+### Example
+
+```java
+int a = 10;
+float b = a;
+```
+
+## Explicit Type Conversion
+
+- **_Explicit Type Conversion_** is used to convert the data from higher data type to lower data type.
+
+- **_Explicit Type Conversion_** is done manually by the user.
+
+- **_Explicit Type Conversion_** is also known as **_Narrowing Type Conversion_**.
+
+- **_Explicit Type Conversion_** is done when:
+  - The data is converted from higher data type to lower data type.
+  - The data is converted from floating point to integer.
+  - The data is converted from double to floating point.
+
+### Example
+
+```java
+float a = 10.5;
+int b = (int) a;
+```
+
+- **_Type Casting_** is used to convert the data from one type to another type.
+
+- **_Type Casting_** is of two types:
+  - **_Implicit Type Casting_**
+  - **_Explicit Type Casting_**
+
+## Implicit Type Casting
+
+- **_Implicit Type Casting_** is used to convert the data from lower data type to higher data type.
+
+- **_Implicit Type Casting_** is done automatically by the compiler.
+
+- **_Implicit Type Casting_** is also known as **_Widening Type Casting_**.
+
+- **_Implicit Type Casting_** is done when:
+  - The data is converted from lower data type to higher data type.
+  - The data is converted from integer to floating point.
+  - The data is converted from floating point to double.
+
+### Example
+
+```java
+int a = 10;
+float b = a;
+```
+
+## Explicit Type Casting
+
+- **_Explicit Type Casting_** is used to convert the data from higher data type to lower data type.
+
+- **_Explicit Type Casting_** is done manually by the user.
+
+- **_Explicit Type Casting_** is also known as **_Narrowing Type Casting_**.
+
+- **_Explicit Type Casting_** is done when:
+  - The data is converted from higher data type to lower data type.
+  - The data is converted from floating point to integer.
+  - The data is converted from double to floating point.
+
+### Example
+
+```java
+float a = 10.5;
+int b = (int) a;
+```
