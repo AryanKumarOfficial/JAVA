@@ -2,8 +2,8 @@ public class datatypes {
     public static void main(String[] args) {
         int myNum = 5; // Integer (whole number)
         float myFloatNum = 5.99f; // Floating point number
-        char myLetter = 'D'; // Character
-        boolean myBool = true; // Boolean
+        char myLetter = 'k'; // Character
+        boolean myBool = true; // Boolean not 0 or 1
         String myText = "Hello"; // String
         short myShort = 500; // Short
         long myLong = 15000000000L; // Long

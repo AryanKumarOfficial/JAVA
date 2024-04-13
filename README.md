@@ -146,5 +146,64 @@ int a = 10;
     - **double** - 8 bytes - range 1.7e-308 to 1.7e+308 – default float in JAVA
   - **_Character_** - stores the character values.
     - **char** - 2 bytes - range 0 to 65,536
+    - **String** - stores the string values.
   - **_Boolean_** - stores the boolean values.
     - **bool** - 1 bit - range true or false
+
+### Non-Primitive Data Types
+
+- **_Non-Primitive Data Types_** are the reference data types.
+- They are used to store the reference of the data.
+- They are used to store the address of the data.
+- **_Non-Primitive Data Types_** are:
+  - **_Arrays_**
+  - **_Classes_**
+  - **_Interfaces_**
+
+## Literals
+
+- **_Literals_** are the constant values.
+- They are used to assign the values to the variables.
+- **_JAVA_** has the following types of literals:
+  - **_Integer Literals_**
+  - **_Floating Point Literals_**
+  - **_Character Literals_**
+  - **_String Literals_**
+  - **_Boolean Literals_**
+
+### Integer Literals
+
+- **_Integer Literals_** are used to assign the integer values.
+- They can be assigned in the following ways:
+  - **_Decimal_** - 10, 20, 30
+  - **_Octal_** - 010, 020, 030
+  - **_Hexadecimal_** - 0x10, 0x20, 0x30
+  - **_Binary_** - 0b10, 0b20, 0b30
+
+### Floating Point Literals
+
+- **_Floating Point Literals_** are used to assign the floating point values.
+- They can be assigned in the following ways:
+  - **_Decimal_** - 10.5, 20.5, 30.5
+  - **_Exponential_** - 10e2, 20e2, 30e2
+
+### Character Literals
+
+- **_Character Literals_** are used to assign the character values.
+- They can be assigned in the following ways:
+  - **_Single Character_** - 'a', 'b', 'c'
+  - **_Escape Sequence_** - '\n', '\t', '\r'
+
+### String Literals
+
+- **_String Literals_** are used to assign the string values.
+- They can be assigned in the following ways:
+  - **_Double Quotes_** - "Hello", "World", "Java"
+
+### Boolean Literals
+
+- **_Boolean Literals_** are used to assign the boolean values.
+- They can be assigned in the following ways:
+  - **_true_** - true
+  - **_false_** - false
+
