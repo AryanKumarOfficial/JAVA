@@ -319,3 +319,187 @@ byte a = 10;
 byte b = 20;
 float c = a*b;
 ```
+
+# Operators
+
+- **_Operators_** are used to perform the operations on the data.
+
+- **_JAVA_** has the following types of operators:
+  - **_Arithmetic Operators_**
+  - **_Relational Operators_**
+  - **_Logical Operators_**
+  - **_Bitwise Operators_**
+  - **_Assignment Operators_**
+  - **_Conditional Operators_**
+  - **_Unary Operators_**
+
+## Arithmetic Operators
+
+- **_Arithmetic Operators_** are used to perform the arithmetic operations on the data.
+
+- **_JAVA_** has the following types of **_Arithmetic Operators_**:
+  - **_Addition_** - +
+  - **_Subtraction_** - -
+  - **_Multiplication_** - \*
+  - **_Division_** - /
+  - **_Modulus_** - %
+  - **_Increment_** - ++
+  - **_Decrement_** - --
+
+### Example
+
+```java
+int a = 10;
+int b = 20;
+int c = a+b;
+int d = a-b;
+int e = a*b;
+int f = a/b;
+int g = a%b;
+int h = a++;
+int i = b--;
+```
+
+## Relational Operators
+
+- **_Relational Operators_** are used to perform the relational operations on the data.
+
+- **_JAVA_** has the following types of **_Relational Operators_**:
+  - **_Equal to_** - ==
+  - **_Not Equal to_** - !=
+  - **_Greater than_** - >
+  - **_Less than_** - <
+  - **_Greater than or Equal to_** - >=
+  - **_Less than or Equal to_** - <=
+
+### Example
+
+```java
+int a = 10;
+int b = 20;
+boolean c = a==b;
+boolean d = a!=b;
+boolean e = a>b;
+boolean f = a<b;
+boolean g = a>=b;
+boolean h = a<=b;
+```
+
+## Logical Operators
+
+- **_Logical Operators_** are used to perform the logical operations on the data.
+
+- **_JAVA_** has the following types of **_Logical Operators_**:
+  - **_Logical AND_** - &&
+  - **_Logical OR_** - ||
+  - **_Logical NOT_** - !
+
+### Example
+
+```java
+
+boolean a = true;
+boolean b = false;
+boolean c = a && b;
+boolean d = a || b;
+boolean e = !a;
+```
+
+## Bitwise Operators
+
+- **_Bitwise Operators_** are used to perform the bitwise operations on the data.
+
+- **_JAVA_** has the following types of **_Bitwise Operators_**:
+  - **_Bitwise AND_** - &
+  - **_Bitwise OR_** - |
+  - **_Bitwise XOR_** - ^
+  - **_Bitwise Complement_** - ~
+  - **_Left Shift_** - <<
+  - **_Right Shift_** - >>
+
+### Example
+
+```java
+int a = 10;
+int b = 20;
+int c = a & b;
+int d = a | b;
+int e = a ^ b;
+int f = ~a;
+int g = a << 2;
+int h = a >> 2;
+```
+
+## Assignment Operators
+
+- **_Assignment Operators_** are used to assign the values to the variables.
+
+- **_JAVA_** has the following types of **_Assignment Operators_**:
+  - **_Simple Assignment_** - =
+  - **_Addition Assignment_** - +=
+  - **_Subtraction Assignment_** - -=
+  - **_Multiplication Assignment_** - \*=
+  - **_Division Assignment_** - /=
+  - **_Modulus Assignment_** - %=
+  - **_Left Shift Assignment_** - <<=
+  - **_Right Shift Assignment_** - >>=
+  - **_Bitwise AND Assignment_** - &=
+  - **_Bitwise OR Assignment_** - |=
+  - **_Bitwise XOR Assignment_** - ^=
+
+### Example
+
+```java
+
+int a = 10;
+int b = 20;
+a += b;
+a -= b;
+a *= b;
+a /= b;
+a %= b;
+a <<= 2;
+a >>= 2;
+a &= b;
+a |= b;
+a ^= b;
+```
+
+## Conditional Operators
+
+- **_Conditional Operators_** are used to perform the conditional operations on the data.
+
+- **_JAVA_** has the following types of **_Conditional Operators_**:
+  - **_Ternary Operator_** - ?:
+
+### Example
+
+```java
+int a = 10;
+int b = 20;
+int c = (a>b)?a:b;
+```
+
+## Unary Operators
+
+- **_Unary Operators_** are used to perform the unary operations on the data.
+
+- **_JAVA_** has the following types of **_Unary Operators_**:
+  - **_Unary Plus_** - +
+  - **_Unary Minus_** - -
+  - **_Increment_** - ++
+  - **_Decrement_** - --
+  - **_Logical NOT_** - !
+  - **_Bitwise Complement_** - ~
+
+### Example
+
+```java
+int a = 10;
+int b = -a;
+int c = ++a;
+int d = --a;
+boolean e = !a;
+int f = ~a;
+```
+
