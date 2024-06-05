@@ -2,11 +2,13 @@ public class typeConversion {
 
     public static void main(String[] args) {
         int speed = 259;
+        @SuppressWarnings("unused")
         byte ping = (byte) speed; // Explicit type castingfrom int to byte
 
         float f = 10.5f;
 
         // int t = f; // Compile time error
+        @SuppressWarnings("unused")
         int t = (int) f; // Explicit type casting
 
         byte a = 10;
