@@ -502,4 +502,283 @@ int d = --a;
 boolean e = !a;
 int f = ~a;
 ```
+# Control Statements
+
+- **_Control Statements_** are used to control the flow of the program.
+
+- **_JAVA_** has the following types of **_Control Statements_**:
+  - **_Selection Statements_**
+  - **_Iteration Statements_**
+  - **_Jump Statements_**
+
+## Selection Statements
+
+- **_Selection Statements_** are used to select the statements to execute.
+
+- **_JAVA_** has the following types of **_Selection Statements_**:
+  - **_if Statement_**
+  - **_if-else Statement_**
+  - **_if-else-if Statement_**
+  - **_switch Statement_**
+
+### if Statement
+
+- **_if Statement_** is used to execute the statement only if the condition is true.
+
+
+```java
+if(condition)
+{
+    // code to be executed
+}
+```
+
+### Example
+
+```java
+int a = 10;
+if(a>5)
+{
+    System.out.println("a is greater than 5");
+}
+```
+
+### if-else Statement
+
+- **_if-else Statement_** is used to execute the statement if the condition is true otherwise execute the else statement.
+
+```java
+if(condition)
+{
+    // code to be executed
+}
+else
+{
+    // code to be executed
+}
+```
+
+### Example
+
+```java
+int a = 10;
+if(a>5)
+{
+    System.out.println("a is greater than 5");
+}
+else
+{
+    System.out.println("a is less than 5");
+}
+```
+
+### if-else-if Statement
+
+- **_if-else-if Statement_** is used to execute the statement if the condition is true otherwise execute the else statement.
+
+```java
+if(condition)
+{
+    // code to be executed
+}
+else if(condition)
+{
+    // code to be executed
+}
+else
+{
+    // code to be executed
+}
+```
+
+### Example
+
+```java
+int a = 10;
+if(a>5)
+{
+    System.out.println("a is greater than 5");
+}
+else if(a<5)
+{
+    System.out.println("a is less than 5");
+}
+else
+{
+    System.out.println("a is equal to 5");
+}
+```
+
+### switch Statement
+
+- **_switch Statement_** is used to execute the statement based on the value of the variable.
+
+```java
+switch(expression)
+{
+    case value1:
+        // code to be executed
+        break;
+    case value2:
+        // code to be executed
+        break;
+    default:
+        // code to be executed
+}
+```
+
+### Example
+
+```java
+int a = 10;
+switch(a)
+{
+    case 5:
+        System.out.println("a is equal to 5");
+        break;
+    case 10:
+        System.out.println("a is equal to 10");
+        break;
+    default:
+        System.out.println("a is not equal to 5 or 10");
+}
+```
+
+## Iteration Statements
+
+- **_Iteration Statements_** are used to execute the statement multiple times.
+
+- **_JAVA_** has the following types of **_Iteration Statements_**:
+  - **_for Loop_**
+  - **_while Loop_**
+  - **_do-while Loop_**
+
+### for Loop
+
+- **_for Loop_** is used to execute the statement multiple times.
+
+```java
+
+for(initialization; condition; increment/decrement)
+{
+    // code to be executed
+}
+```
+
+### Example
+
+```java
+
+for(int i=0; i<5; i++)
+{
+    System.out.println(i);
+}
+```
+
+### while Loop
+
+- **_while Loop_** is used to execute the statement multiple times.
+
+```java
+
+while(condition)
+{
+    // code to be executed
+}
+```
+
+### Example
+
+```java
+
+int i = 0;
+while(i<5)
+{
+    System.out.println(i);
+    i++;
+}
+```
+
+### do-while Loop
+
+- **_do-while Loop_** is used to execute the statement multiple times.
+
+```java
+
+do
+{
+    // code to be executed
+}
+
+while(condition);
+```
+
+### Example
+
+```java
+
+int i = 0;
+do
+{
+    System.out.println(i);
+    i++;
+}
+
+
+while(i<5);
+```
+
+## Jump Statements
+
+- **_Jump Statements_** are used to jump from one statement to another statement.
+
+- **_JAVA_** has the following types of **_Jump Statements_**:
+  - **_break Statement_**
+  - **_continue Statement_**
+  - **_return Statement_**
+
+### break Statement
+
+- **_break Statement_** is used to jump from the loop.
+
+```java
+
+for(int i=0; i<5; i++)
+{
+    if(i==3)
+    {
+        break;
+    }
+    System.out.println(i);
+}
+```
+
+### continue Statement
+
+- **_continue Statement_** is used to skip the current iteration.
+
+```java
+
+for(int i=0; i<5; i++)
+{
+    if(i==3)
+    {
+        continue;
+    }
+    System.out.println(i);
+}
+```
+
+### return Statement
+
+- **_return Statement_** is used to return the value from the method.
+
+```java
+
+public int add(int a, int b)
+{
+    return a+b;
+}
+```
+
 
