@@ -1044,3 +1044,58 @@ a[0][1] = 20;
 a[1][0] = 30;
 a[1][1] = 40;
 ```
+
+## Enhanced for Loop
+
+- **_Enhanced for Loop_** is used to iterate the elements of the array.
+
+- **_Enhanced for Loop_** is used to iterate the elements of the array without using the index.
+
+- **_Enhanced for Loop_** is used to iterate the elements of the array in a single line.
+
+### Example
+
+```java
+int a[] = {10, 20, 30, 40, 50};
+for(int i:a)
+{
+    System.out.println(i);
+}
+```
+
+## Array Methods
+
+- **_Arrays_** class is used to perform the operations on the array.
+
+- **_Arrays_** class is used to perform the operations on the array elements.
+
+- **_Arrays_** class is used to perform the operations on the array methods.
+
+### Example
+
+```java
+int a[] = {10, 20, 30, 40, 50};
+
+Arrays.sort(a);
+
+for(int i:a)
+{
+    System.out.println(i);
+}
+```
+
+
+
+
+## Drowbacks of Arrays
+
+- **_Arrays_** are fixed in size.
+
+- **_Arrays_** are not dynamic in nature.
+
+- **_Arrays_** are not flexible in nature.
+
+- **_Arrays_** are not efficient in nature.
+
+- **_Arrays_** are not secure in nature.
+
