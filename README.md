@@ -502,6 +502,7 @@ int d = --a;
 boolean e = !a;
 int f = ~a;
 ```
+
 # Control Statements
 
 - **_Control Statements_** are used to control the flow of the program.
@@ -524,7 +525,6 @@ int f = ~a;
 ### if Statement
 
 - **_if Statement_** is used to execute the statement only if the condition is true.
-
 
 ```java
 if(condition)
@@ -781,4 +781,215 @@ public int add(int a, int b)
 }
 ```
 
+# JAVA OOPs Concepts
 
+- **_OOPs_** stands for **_Object-Oriented Programming_**.
+
+- **_OOPs_** is a programming paradigm.
+
+- **_OOPs_** is used to design the program using the objects.
+
+- **_OOPs_** has the following concepts:
+  - **_Class_**
+  - **_Object_**
+  - **_Inheritance_**
+  - **_Polymorphism_**
+  - **_Abstraction_**
+  - **_Encapsulation_**
+
+## Class
+
+- **_Class_** is a blueprint of the object.
+
+- **_Class_** is used to create the object.
+
+- **_Class_** is used to define the properties and behaviors of the object.
+
+- **_Class_** is used to define the methods and variables.
+
+### Example
+
+```java
+class Student
+{
+    int id;
+    String name;
+    void display()
+    {
+        System.out.println(id+" "+name);
+    }
+}
+```
+
+## Object
+
+- **_Object_** is an instance of the class.
+
+- **_Object_** is used to create the instance of the class.
+
+- **_Object_** is used to access the properties and behaviors of the class.
+
+- **_Object_** is used to access the methods and variables.
+
+### Example
+
+```java
+Student s1 = new Student();
+s1.id = 101;
+s1.name = "John";
+s1.display();
+```
+
+## Inheritance
+
+- **_Inheritance_** is used to inherit the properties and behaviors of the class.
+
+- **_Inheritance_** is used to create the new class from the existing class.
+
+- **_Inheritance_** is used to reuse the code.
+
+- **_Inheritance_** is used to create the parent-child relationship.
+
+### Example
+
+```java
+class Animal
+{
+    void eat()
+    {
+        System.out.println("eating...");
+    }
+}
+
+class Dog extends
+Animal
+{
+    void bark()
+    {
+        System.out.println("barking...");
+    }
+}
+```
+
+## Polymorphism
+
+- **_Polymorphism_** is used to perform the multiple operations.
+
+- **_Polymorphism_** is used to perform the single operation in different ways.
+
+- **_Polymorphism_** is used to perform the method overloading and method overriding.
+
+### Method Overloading
+
+- **_Method Overloading_** is used to create the multiple methods with the same name but different parameters.
+
+- **_Method Overloading_** is used to perform the same operation in different ways.
+
+### Example
+
+```java
+
+class Add
+{
+    int add(int a, int b)
+    {
+        return a+b;
+    }
+    int add(int a, int b, int c)
+    {
+        return a+b+c;
+    }
+}
+```
+
+### Method Overriding
+
+- **_Method Overriding_** is used to create the method in the child class with the same name and same parameters as the parent class.
+
+- **_Method Overriding_** is used to perform the different operations in the child class.
+
+### Example
+
+```java
+
+class Animal
+{
+    void eat()
+    {
+        System.out.println("eating...");
+    }
+}
+
+class Dog extends
+
+Animal
+{
+    void eat()
+    {
+        System.out.println("barking...");
+    }
+}
+```
+
+## Abstraction
+
+- **_Abstraction_** is used to hide the internal details and show only the necessary details.
+
+- **_Abstraction_** is used to show the essential features and hide the non-essential features.
+
+- **_Abstraction_** is used to create the abstract class and abstract methods.
+
+### Example
+
+```java
+
+abstract class Animal
+{
+    abstract void eat();
+}
+
+class Dog extends
+
+Animal
+{
+    void eat()
+    {
+        System.out.println("eating...");
+    }
+}
+```
+
+## Encapsulation
+
+- **_Encapsulation_** is used to bind the data and methods into a single unit.
+
+- **_Encapsulation_** is used to create the class with the private variables and public methods.
+
+- **_Encapsulation_** is used to hide the data from the outside world.
+
+### Example
+
+```java
+
+class Student
+{
+    private int id;
+    private String name;
+    public void setId(int id)
+    {
+        this.id = id;
+    }
+    public int getId()
+    {
+        return id;
+    }
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+    public String getName()
+    {
+        return name;
+    }
+}
+```
