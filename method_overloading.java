@@ -7,6 +7,8 @@ class Calculator {
 
     // method overloading
 
+    // name and parameter matters only not the type of the function
+
     public int add(int a, int b, int c) {
         return a + b + c;
     }
@@ -15,7 +17,7 @@ class Calculator {
         return a + b;
     }
 
-    public double  add(double a, int b) {
+    public double add(double a, int b) {
         return a + b;
     }
 }
