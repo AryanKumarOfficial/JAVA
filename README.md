@@ -1084,9 +1084,6 @@ for(int i:a)
 }
 ```
 
-
-
-
 ## Drowbacks of Arrays
 
 - **_Arrays_** are fixed in size.
@@ -1099,3 +1096,193 @@ for(int i:a)
 
 - **_Arrays_** are not secure in nature.
 
+# Strings
+
+- **_Strings_** are used to store the collection of characters.
+
+- **_Strings_** are used to store the collection of characters in a single variable.
+
+- **_Strings_** are used to store the collection of characters in a single row.
+
+- **_Strings_** are used to store the collection of characters in a single column.
+
+- **_JAVA_** has the following types of **_Strings_**:
+  - **_String_**
+  - **_StringBuffer_**
+  - **_StringBuilder_**
+
+## String
+
+- **_String_** is used to store the collection of characters.
+
+- **_String_** is used to store the collection of characters in a single variable.
+
+- **_String_** is used to store the collection of characters in a single row.
+
+- **_String_** is used to store the collection of characters in a single column.
+
+### Example
+
+```java
+String s = "Hello World";
+```
+
+## StringBuffer
+
+- **_StringBuffer_** is used to store the collection of characters.
+
+- **_StringBuffer_** is used to store the collection of characters in a single variable.
+
+- **_StringBuffer_** is used to store the collection of characters in a single row.
+
+- **_StringBuffer_** is used to store the collection of characters in a single column.
+
+- **_StringBuffer_** is mutable in nature.
+
+### Example
+
+```java
+StringBuffer sb = new StringBuffer("Hello World");
+```
+
+## StringBuilder
+
+- **_StringBuilder_** is used to store the collection of characters.
+
+- **_StringBuilder_** is used to store the collection of characters in a single variable.
+
+- **_StringBuilder_** is used to store the collection of characters in a single row.
+
+- **_StringBuilder_** is used to store the collection of characters in a single column.
+
+- **_StringBuilder_** is mutable in nature.
+
+### Example
+
+```java
+StringBuilder sb = new StringBuilder("Hello World");
+```
+
+## String Methods
+
+- **_String_** class is used to perform the operations on the string.
+
+- **_String_** class is used to perform the operations on the string elements.
+
+- **_String_** class is used to perform the operations on the string methods.
+
+### Example
+
+```java
+String s = "Hello World";
+
+System.out.println(s.length());
+
+System.out.println(s.toUpperCase());
+
+System.out.println(s.toLowerCase());
+
+System.out.println(s.charAt(0));
+
+System.out.println(s.indexOf('H'));
+
+System.out.println(s.lastIndexOf('d'));
+
+System.out.println(s.substring(0, 5));
+
+System.out.println(s.replace('H', 'M'));
+
+System.out.println(s.trim());
+
+System.out.println(s.startsWith("Hello"));
+
+System.out.println(s.endsWith("World"));
+
+System.out.println(s.contains("Hello"));
+
+System.out.println(s.equals("Hello World"));
+
+System.out.println(s.equalsIgnoreCase("hello world"));
+```
+
+## StringBuffer Methods
+
+- **_StringBuffer_** class is used to perform the operations on the string.
+
+- **_StringBuffer_** class is used to perform the operations on the string elements.
+
+- **_StringBuffer_** class is used to perform the operations on the string methods.
+
+### Example
+
+```java
+
+StringBuffer sb = new StringBuffer("Hello World");
+
+System.out.println(sb.length());
+
+System.out.println(sb.capacity());
+
+System.out.println(sb.append("Java"));
+
+System.out.println(sb.insert(5, "Java"));
+
+System.out.println(sb.delete(5, 10));
+
+System.out.println(sb.reverse());
+
+System.out.println(sb.replace(0, 5, "Java"));
+
+System.out.println(sb.deleteCharAt(0));
+
+System.out.println(sb.charAt(0));
+
+System.out.println(sb.indexOf("Java"));
+
+System.out.println(sb.lastIndexOf("Java"));
+
+System.out.println(sb.substring(0, 5));
+
+System.out.println(sb.toString());
+```
+
+## StringBuilder Methods
+
+- **_StringBuilder_** class is used to perform the operations on the string.
+
+- **_StringBuilder_** class is used to perform the operations on the string elements.
+
+- **_StringBuilder_** class is used to perform the operations on the string methods.
+
+### Example
+
+```java
+
+StringBuilder sb = new StringBuilder("Hello World");
+
+System.out.println(sb.length());
+
+System.out.println(sb.capacity());
+
+System.out.println(sb.append("Java"));
+
+System.out.println(sb.insert(5, "Java"));
+
+System.out.println(sb.delete(5, 10));
+
+System.out.println(sb.reverse());
+
+System.out.println(sb.replace(0, 5, "Java"));
+
+System.out.println(sb.deleteCharAt(0));
+
+System.out.println(sb.charAt(0));
+
+System.out.println(sb.indexOf("Java"));
+
+System.out.println(sb.lastIndexOf("Java"));
+
+System.out.println(sb.substring(0, 5));
+
+System.out.println(sb.toString());
+```
