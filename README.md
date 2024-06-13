@@ -993,3 +993,54 @@ class Student
     }
 }
 ```
+
+# Arrays
+
+- **_Arrays_** are used to store the multiple values in a single variable.
+
+- **_Arrays_** are used to store the collection of similar type of elements.
+
+- **_Arrays_** are used to store the collection of elements of the same data type.
+
+- **_JAVA_** has the following types of **_Arrays_**:
+  - **_Single Dimensional Array_**
+  - **_Multi Dimensional Array_**
+
+## Single Dimensional Array
+
+- **_Single Dimensional Array_** is used to store the collection of elements of the same data type.
+
+- **_Single Dimensional Array_** is used to store the collection of elements in a single row.
+
+- **_Single Dimensional Array_** is used to store the collection of elements in a single column.
+
+### Example
+
+```java
+int a[] = new int[5];
+a[0] = 10;
+a[1] = 20;
+a[2] = 30;
+a[3] = 40;
+a[4] = 50;
+```
+
+## Multi Dimensional Array
+
+- **_Multi Dimensional Array_** is used to store the collection of elements of the same data type.
+
+- **_Multi Dimensional Array_** is used to store the collection of elements in multiple rows and columns.
+
+- **_Multi Dimensional Array_** is used to store the collection of elements in multiple rows.
+
+- **_Multi Dimensional Array_** is used to store the collection of elements in multiple columns.
+
+### Example
+
+```java
+int a[][] = new int[2][2];
+a[0][0] = 10;
+a[0][1] = 20;
+a[1][0] = 30;
+a[1][1] = 40;
+```
