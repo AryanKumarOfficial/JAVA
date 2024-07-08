@@ -1,12 +1,27 @@
+//import tools.AdvCalc;
+//import tools.Calc;
+//import tools.ScientificCalc;
+
+/*
+  means all the files but not the folders.
+ */
+
+import tools.*;
+
 public class MoreOnOops {
     public static void main(String[] args) {
-        ScientificCalc c1 = new ScientificCalc();
-        int r1 = c1.add(10, 12);
-        int r2 = c1.sub(20, 12);
-        int r3 = c1.multi(20, 12);
-        int r4 = c1.div(20, 12);
-        double r5 = c1.power(20, 2);
-        System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
+        Calc c1 = new Calc();
+        AdvCalc c2 = new AdvCalc();
+        ScientificCalc c3 = new ScientificCalc();
+/*
+ *
+ * int r1 = c1.add(10, 12);
+ int r2 = c1.sub(20, 12);
+ int r3 = c1.multi(20, 12);
+ int r4 = c1.div(20, 12);
+ double r5 = c1.power(20, 2);
+ System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
+*/
     }
 }
 

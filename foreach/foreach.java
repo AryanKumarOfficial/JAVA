@@ -1,3 +1,5 @@
+package foreach;
+
 class Student {
     String name;
     int rollNo;

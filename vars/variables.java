@@ -4,6 +4,7 @@
  * while we create a object it is stored in the heap memory and the instance variable is stored in the heap
  * the address to the object will be stored in the variable for this example we have calc which stores the address of the object not the object itself
  */
+package vars;
 
 class Calculator {
 
