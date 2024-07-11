@@ -3,7 +3,8 @@ package SAM;
 @FunctionalInterface
 interface A {
 
-    void show(int i);
+    //    void show(int i);
+    int add(int i, int j);
 }
 
 //class B implements A {
@@ -22,8 +23,10 @@ public class Demo {
 //                System.out.println("in show");
 //            }
 //        };
-        A obj = i -> System.out.println("using lambda expression " + i);
-        obj.show(10);
+//        A obj = Integer::sum;
+        A obj = (i, j) -> i + j;
+//        obj.show(10);
+        System.out.println(obj.add(10, 20));
 
 
     }
