@@ -19,6 +19,8 @@ public class Demo {
        * */
 
         Status s = Status.Failed;
+        System.out.println(s.getClass().getSuperclass());
+
         if (s == Status.Running) System.out.println("all good");
         else if (s == Status.Failed) System.out.println("Try again");
         else if (s == Status.Pending) System.out.println("Please wait");
@@ -53,5 +55,6 @@ public class Demo {
  * You can compare enum constants with the == operator.
  * You can use the switch statement to select enum constants.
  * You can add fields, constructors, and methods to an enum.
+ * It extends java.lang.Enum class.
  *
  * */
