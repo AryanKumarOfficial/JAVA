@@ -1,7 +1,5 @@
 // prints hello world
 
-class hello {
-    public static void main(String a[]) {
-        System.out.print("Hello Devs!");
-    }
+void main() {
+    System.out.println("Hello word");
 }
