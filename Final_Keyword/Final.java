@@ -1,7 +1,7 @@
 package Final_Keyword;
 
 class Calc {
-    public final void show() {
+    public void show() {
         System.out.println("in calc show");
     }
 
